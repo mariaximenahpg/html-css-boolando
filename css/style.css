@@ -1,0 +1,57 @@
+/* ---------
+    Reset
+--------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------
+    Common
+--------- */
+
+body {
+    font-family:'Roboto', sans-serif;
+}
+
+/* ---------
+    Header
+--------- */
+
+header {
+    background-color: #ff6900;
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+    color: #ffff;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo-boolando {
+    width: 20%;
+}
