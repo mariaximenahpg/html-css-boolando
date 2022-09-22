@@ -183,5 +183,32 @@ span {
     margin-left: 20px;
 }
 
+/* ---------
+    Footer
+--------- */
+
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    display: flex;
+}
+
+.footer-container {
+    width: 1200px;
+    margin: 30px auto;
+}
+
+.lista1-footer {
+    list-style: none;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    margin-right: 10px;
+    font-size: 10px;
+}
+
+
+
+
 
 
